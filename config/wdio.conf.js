@@ -116,9 +116,7 @@ exports.config = {
         name: [],
         profile: [],
         require: [
-            './src/stepDefinitions/celsiusToFahrenheitConvertor.steps.js',
-            './src/stepDefinitions/google.steps.js',
-            './src/stepDefinitions/settings.steps.js'
+            './src/stepDefinitions/AddProductToCart.steps.js'
         ],
         snippetSyntax: undefined,
         snippets: true,

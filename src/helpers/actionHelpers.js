@@ -38,10 +38,14 @@ class ActionHelper {
 
     static sendText(locator, inputText) {
         $(locator).addValue(inputText);
+
     }
 
     static getText(locator) {
         return $(locator).getText();
+    }
+    static hideKeyboard(){
+        driver.hideKeyboard();
     }
 }
 
